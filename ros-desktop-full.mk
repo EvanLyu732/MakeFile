@@ -1,5 +1,5 @@
-NAME ?= ros
-VERSION ?= melodic
+NAME ?= osrf/ros
+VERSION ?= melodic-desktop-full-stretch
 CONTAINER_NAME ?= melodic_container
 
 .PHONY: build start_nvidia start attach clean_image clean_container
