@@ -4,10 +4,6 @@ CONTAINER_NAME ?= melodic_container
 
 .PHONY: build start_nvidia start attach clean_image clean_container
 
-build:
-	$(info start to build image......) \
-	docker build -t ${NAME}:${VERSION} .
-	
 # for nvidia driver
 start_nvidia:
 	$(info enable nvidia gpu container......) \
